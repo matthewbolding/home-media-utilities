@@ -13,4 +13,4 @@ else
 fi
 
 # Create a new backup and save it to the cloud.
-tar -cJf $CLOUD/plex-media-server-`date +\%Y-\%m-\%d-%H:%M:%S`.tar.xz test-dir
+tar -cPJf $CLOUD/plex-media-server-`date +\%Y-\%m-\%d-%H:%M:%S`.tar.xz $TARGET
