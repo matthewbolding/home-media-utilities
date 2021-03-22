@@ -1,6 +1,8 @@
 # pms-backups
 
 ## Big To Do List
+* Install GTX 780 for better GUI performance
+* Backup *all* content
 * Periodically restart computer
 * Periodically reload plexmediaserver service using `systemctl`
 * Consider utilizing C to streamline disparate shell scripts to a system service
