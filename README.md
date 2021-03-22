@@ -17,7 +17,7 @@ Note that the `Transcode` subdirectory is not included in backups, since files s
 Although the script is set to run every month, after a ingesting content or a majory system event occuring, running the script *might* be in the user's best interest.
 
 ### TO DO 
-* Implement in crontab on cycle 30 3 1 * * (Occurs on the first of every month.)
+* Implement in crontab on cycle 30 3 1 * * (Occurs at 03:30 on the first of every month.)
 * Put in correct, absolute paths and directory names
 * Consider a way to limit the accural of $BACKUPS' size
 * Reconsider cloud storage because of slow internet

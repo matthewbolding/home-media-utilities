@@ -1,3 +1,4 @@
 test-dir/
 plex-media-server-*.tar.xz
 pms-backups.tar
+.DS_Store
