@@ -6,6 +6,7 @@
 * Periodically restart computer
 * Periodically reload plexmediaserver service using `systemctl` (p. 456)
 * Consider utilizing C to streamline disparate shell scripts to a system service
+* Ensure that Home-Media is set to a static local IP address
 
 ## preferences-backup.sh
 
@@ -24,6 +25,7 @@ Although the script is set to run every month, after a ingesting content or a ma
 * Consider a way to limit the accural of $BACKUPS' size
 * Reconsider cloud storage because of slow internet
 * Exclude transcode folder
+* Consider only updating the tar archive with new files instead of creating new archives each month
 
 ## file-system-checks.sh
 
@@ -34,5 +36,5 @@ Every Sunday, the entire Plex library is scanned to ensure that no files or sect
 
 ### TO DO
 * Implement in crontab on cycle 45 3 * * 0 (Occurs 03:45 every Sunday.) (p. 486)
-* Consider acting on outcome of file checking program
-* Consider using `e2fsck`
+* Consider acting on outcome of file checking program (p. 379)
+* Consider using `e2fsck` (p. 259)
